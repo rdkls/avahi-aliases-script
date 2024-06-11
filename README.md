@@ -1,6 +1,9 @@
 
 put service file in /etc/systemd/system
-others in /run/avahi-daemon
+python in /usr/local/bin
+conf in /etc/avahi
+
+
 
 # Requirements
 - avahi
