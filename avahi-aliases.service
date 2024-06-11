@@ -6,7 +6,7 @@ After=network.target avahi-daemon.service
 User=avahi
 Group=avahi
 Type=forking
-ExecStart=/usr/bin/python3 /run/avahi-daemon/publish-avahi-aliases.py
+ExecStart=/usr/bin/python3 /usr/local/bin/publish-avahi-aliases.py
 
 [Install]
 WantedBy=multi-user.target
